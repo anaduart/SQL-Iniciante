@@ -32,10 +32,10 @@ INSERT INTO Clientes (ID, Nome, Email, Telefone, Cidade) VALUES
 
 INSERT INTO Vendedores (ID, Nome, Email, Telefone, Loja) VALUES
 (1, 'Lucas Almeida', 'lucas.almeida@destinycosmetics.com', '5561982264555', 101),
-(2, 'Juliana Martins', 'juliana.martins@destinycosmetics.com', '5561982264666', 102),
-(3, 'Roberto Lima', 'roberto.lima@destinycosmetics.com', '5561982264777', 103),
-(4, 'Carla Souza', 'carla.souza@destinycosmetics.com', '5561982264888', 104),
-(5, 'Pedro Ferreira', 'pedro.ferreira@destinycosmetics.com', '5561982264999', 105);
+(2, 'Juliana Martins', 'juliana.martins@destinycosmetics.com', '5561982264666', 101),
+(3, 'Roberto Lima', 'roberto.lima@destinycosmetics.com', '5561982264777', 102),
+(4, 'Carla Souza', 'carla.souza@destinycosmetics.com', '5561982264888', 102),
+(5, 'Pedro Ferreira', 'pedro.ferreira@destinycosmetics.com', '5561982264999', 103);
 
 
 INSERT INTO Vendas (ID, ClienteID, ProdutoID, VendedorID, Quantidade, Data_Compra) VALUES
