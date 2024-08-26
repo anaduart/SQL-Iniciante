@@ -3,7 +3,17 @@ INSERT INTO Produtos (ID, Nome, Tamanho, Categoria, Preco, Estoque) VALUES
 (2, 'Base Líquida', '30ml', 'Maquiagens', 99.90, 80),
 (3, 'Perfume Floral', '100ml', 'Perfumes', 159.90, 60),
 (4, 'Máscara de Cílios', '10ml', 'Maquiagens', 49.90, 120),
-(5, 'Creme Anti-Idade', '60ml', 'Cremes', 119.90, 40);
+(5, 'Creme Anti-Idade', '60ml', 'Cremes', 119.90, 40),
+(6, 'Esfoliante Corporal', '200ml', 'Cremes', 89.90, 90),
+(7, 'Lápis de Olho', '1,2g', 'Maquiagens', 29.90, 200),
+(8, 'Blush Compacto', '5g', 'Maquiagens', 59.90, 75),
+(9, 'Shampoo Hidratante', '300ml', 'Higiene', 45.90, 110),
+(10, 'Condicionador Nutritivo', '300ml', 'Higiene', 49.90, 100),
+(11, 'Desodorante Spray', '150ml', 'Higiene', 29.90, 140),
+(12, 'Creme de Mãos', '75ml', 'Cremes', 39.90, 85),
+(13, 'Óleo de Argan', '50ml', 'Cremes', 69.90, 70),
+(14, 'Creme Relaxante para Pés', '100ml', 'Cremes', 54.90, 60),
+(15, 'Protetor Solar Facial', '50ml', 'Cremes', 129.90, 50);
 
 
 INSERT INTO Clientes (ID, Nome, Email, Telefone, Cidade) VALUES
