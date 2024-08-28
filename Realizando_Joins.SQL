@@ -19,3 +19,9 @@ SELECT SUM(Vendas.Quantidade * Produtos.Preco) AS FaturamentoAgosto
 FROM Vendas
 INNER JOIN Produtos ON Vendas.ProdutoID = Produtos.ID
 WHERE MONTH(Vendas.Data_Compra) = 8 AND YEAR(Vendas.Data_Compra) = YEAR(CURDATE());
+
+-- no sqllite
+SELECT SUM(Vendas.Quantidade * Produtos.Preco) AS FaturamentoAgosto
+FROM Vendas
+INNER JOIN Produtos ON Vendas.ProdutoID = Produtos.ID
+WHERE strftime('%m',Vendas.Data_Compra) = '08';
