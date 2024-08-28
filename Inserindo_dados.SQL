@@ -17,16 +17,16 @@ INSERT INTO Produtos (ID, Nome, Tamanho, Categoria, Preco, Estoque) VALUES
 
 
 INSERT INTO Clientes (ID, Nome, Email, Telefone, Cidade) VALUES
-(1, 'Ana Silva', 'ana.silva@destinycosmetics.com', '5561982264866', 'São Paulo'),
-(2, 'João Santos', 'joao.santos@destinycosmetics.com', '5561982264999', 'Campinas'),
-(3, 'Maria Oliveira', 'maria.oliveira@destinycosmetics.com', '5561982264888', 'São Bernardo do Campo'),
-(4, 'Carlos Pereira', 'carlos.pereira@destinycosmetics.com', '5561982264777', 'Santo André'),
-(5, 'Fernanda Costa', 'fernanda.costa@destinycosmetics.com', '5561982264666', 'São Paulo'),
-(6, 'Eduardo Lima', 'eduardo.lima@destinycosmetics.com', '5561982265111', 'São José dos Campos'),
-(7, 'Patrícia Gomes', 'patricia.gomes@destinycosmetics.com', '5561982265222', 'São José dos Campos'),
-(8, 'Bruna Martins', 'bruna.martins@destinycosmetics.com', '5561982265333', 'Santo André'),
-(9, 'Ricardo Oliveira', 'ricardo.oliveira@destinycosmetics.com', '5561982265444', 'São Paulo'),
-(10, 'Camila Almeida', 'camila.almeida@destinycosmetics.com', '5561982265555', 'São Paulo');
+(1, 'Ana Silva', 'ana.silva@gmailcom', '5561982264866', 'São Paulo'),
+(2, 'João Santos', 'joao.santos@hotmail.com', '5561982264999', 'Campinas'),
+(3, 'Maria Oliveira', 'maria.oliveira@bol.com', '5561982264888', 'São Bernardo do Campo'),
+(4, 'Carlos Pereira', 'carlos.pereira@gmail.com', '5561982264777', 'Santo André'),
+(5, 'Fernanda Costa', 'fernanda.costa@gmail.com', '5561982264666', 'São Paulo'),
+(6, 'Eduardo Lima', 'eduardo.lima@outlook.com', '5561982265111', 'São José dos Campos'),
+(7, 'Patrícia Gomes', 'patricia.gomes@gmail.com', '5561982265222', 'São José dos Campos'),
+(8, 'Bruna Martins', 'bruna.martins@hotmail.com', '5561982265333', 'Santo André'),
+(9, 'Ricardo Oliveira', 'ricardo.oliveira@gmail.com', '5561982265444', 'São Paulo'),
+(10, 'Camila Almeida', 'camila.almeida@gmail.com', '5561982265555', 'São Paulo');
 
 
 
